@@ -9,7 +9,7 @@ import { Card } from '@/components/Card';
 import { DailyEarning } from '@/types';
 import { getIndividualEarnings, setIndividualEarnings } from '@/utils/storage';
 import { formatCurrency } from '@/utils/calculations';
-import { Plus, Calendar, TrendingUp } from 'lucide-react-native';
+import { Plus, Calendar, TrendingUp, Building2 } from 'lucide-react-native';
 
 const { width } = Dimensions.get('window');
 const isSmallScreen = width < 375;
